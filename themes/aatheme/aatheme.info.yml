@@ -1,0 +1,14 @@
+name: Portfolio
+type: theme
+description: 'Portfolio Website'
+core: 8.x
+libraries:
+  - aatheme/global
+regions:
+  header: Header
+  navigation: navigation
+  branding: Branding
+  content: Content
+  breadcrumb: Breadcrumb
+  sidebar: Sidebar
+  footer: Footer

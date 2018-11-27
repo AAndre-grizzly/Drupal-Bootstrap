@@ -1,0 +1,28 @@
+/*Main colours*/
+header {
+  padding: 1rem;
+  background-color: #fff;
+  color: #000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+  header nav ul {
+    margin: 0;
+    padding: 0; }
+    header nav ul li {
+      list-style: none; }
+      header nav ul li a {
+        display: block;
+        padding: 1rem; }
+
+main {
+  margin-top: 88px; }
+
+body {
+  background: #e1e1e1; }
+
+footer {
+  padding: 1rem;
+  background-color: #fff; }

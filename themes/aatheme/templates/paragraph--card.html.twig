@@ -1,0 +1,8 @@
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="{{ file_url(content.field_card_image.0['#item'].entity.uri.value)}}" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">{{ content.field_card_heading }}</h5>
+    <p class="card-text">{{ content.field_card_body_text }}</p>
+    <a href="{{ content.field_card_button[0]['#url'] }}" class="btn btn-primary">{{ content.field_card_button[0]['#title'] }}</a>
+  </div>
+</div>
